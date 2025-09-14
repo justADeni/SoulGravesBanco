@@ -1,0 +1,6 @@
+name: SoulGravesBanco
+version: ${project.version}
+main: com.github.justadeni.soulGravesBanco.SoulGravesBanco
+api-version: '1.21'
+authors: [ justADeni ]
+description: Makes Soul Graves inventories visible to banco plugin
