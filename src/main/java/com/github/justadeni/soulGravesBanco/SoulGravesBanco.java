@@ -1,7 +1,7 @@
 package com.github.justadeni.soulGravesBanco;
 
-import org.bukkit.Bukkit;
-import org.bukkit.event.Listener;
+import com.github.justadeni.soulGravesBanco.listeners.SoulCreateListener;
+import com.github.justadeni.soulGravesBanco.listeners.SoulDeleteListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class SoulGravesBanco extends JavaPlugin {

@@ -26,7 +26,7 @@
                 <version>3.1.0</version>
                 <executions>
                     <execution>
-                        <phase>initialize </phase>
+                        <phase>initialize</phase>
                         <configuration>
                             <target>
                                 <mkdir dir="${project.build.directory}/dependencies"/>
@@ -96,7 +96,6 @@
             <groupId>com.github.myth-MC</groupId>
             <artifactId>banco</artifactId>
             <version>1.0.3</version>
-            <!--This is ugly but it wouldn't work any other way-->
             <systemPath>${project.build.directory}/dependencies/lib.jar</systemPath>
             <scope>system</scope>
         </dependency>
