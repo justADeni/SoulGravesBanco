@@ -3,4 +3,7 @@ version: ${project.version}
 main: com.github.justadeni.soulGravesBanco.SoulGravesBanco
 api-version: '1.21'
 authors: [ justADeni ]
+depend:
+  - banco
+  - SoulGraves
 description: Makes Soul Graves inventories visible to banco plugin
