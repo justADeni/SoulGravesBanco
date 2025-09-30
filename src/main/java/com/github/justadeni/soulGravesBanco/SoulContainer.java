@@ -38,6 +38,9 @@ public class SoulContainer extends BancoContainer {
             Iterator<ItemStack> it = soul.getInventory().iterator();
             while (it.hasNext() && remaining > 0) {
                 ItemStack stack = it.next();
+                if (stack == null)
+                    continue;
+
                 if (stack.isSimilar(toRemove)) { // only same type, meta, etc.
                     if (stack.getAmount() <= remaining) {
                         remaining -= stack.getAmount();
